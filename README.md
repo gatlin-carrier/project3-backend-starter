@@ -1,4 +1,26 @@
-# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
+# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+
+## User Stories
+
+1. As a User, I want to be able to add my own flashcards, so that I can study.
+
+2. As a User, I want to have Decks where I can store my flashcards by subject, so that my study materials are organized.
+
+3. As a User, I want to see just the question/term and then click somewhere to reveal the answer/definition, so that I can test my memory.
+
+4. As a User, I want to be able to mark a flashcard as "learned", so that I can track my progess.
+
+5. As a User, I want to be able to update/change a card, so I can keep my Decks flexible and up to date.
+
+6. As a User, I want to have controls that allow me to move through the cards in a Deck, so I can move easily between my cards.
+
+7. As a User, I want to be able to delete a card from a Deck, so I can better manage my Decks.
+
+8. As a User, I want to be able to add images to my flashcards/Decks, so that I can better memeorize the content and study.
+
+9. As a User, I want a motivational gif/quote to appear when I master something, so that I feel more motivated to study.
+
+10. As a User, I want a help page/guides, so that I can more easily use the web app.
 
 # Project 3 Backend Starter Code
 
@@ -16,8 +38,7 @@
 - Fork and clone `https://git.generalassemb.ly/Interapt/project3-backend-starter`
 - `cd` into the app and `npm install`
 - From the command line run `createdb project3-backend-dev`
-- Run `npm start`. 
-
+- Run `npm start`.
 
 #### Starter End Points
 
@@ -45,7 +66,6 @@ You have two starter endpoints:
 - This app also has `cors` and `nodemon` installed.
 - [Sequelize Cheatsheet](https://gist.github.com/vapurrmaid/a111bf3fc0224751cb2f76532aac2465)
 
-
 #### Test the endpoints with Postman
 
 ![](https://i.imgur.com/MhV0c4U.png)
@@ -62,15 +82,13 @@ You have two starter endpoints:
 
 ![](https://i.imgur.com/7CLkUI4.png)
 
-
 #### Axios
 
 The app has axios installed. You have one method called `getUsers` that hits your Express backend `api/users`. Check the browser console for the response.
 
-
 <br>
 
-# Heroku 
+# Heroku
 
 ## Create Free Heroku Account
 
@@ -84,11 +102,10 @@ The app has axios installed. You have one method called `getUsers` that hits you
 
 [Heroku Node/Express Deployment Docs](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)
 
-
 - Also syncing the Sequelize models so that the tables will automatically be created:
 
 ```js
-var db = require('./models');
+var db = require("./models");
 db.sequelize.sync();
 ```
 
@@ -119,14 +136,9 @@ For security, we'll add the Heroku Postgres URL add heroku env variable to herok
 
 ![](https://i.imgur.com/Lzp0zlC.png)
 
-- In the `Connection` Tab:
-	
-	- `Hostname/Address` is your Heroku Postgres `Host`
-	- `Maintenance Database` is your Heroku Postgres `Database`
-	- `Username` is your Heroku Postgres `User`
+- In the `Connection` Tab: - `Hostname/Address` is your Heroku Postgres `Host` - `Maintenance Database` is your Heroku Postgres `Database` - `Username` is your Heroku Postgres `User`
 
 ![](https://i.imgur.com/hQQB2MM.png)
-
 
 <br>
 
@@ -139,6 +151,5 @@ From here you can run commands like `sequelize db:migrate` or `sequelize db:seed
 https://project3-backend-test.herokuapp.com/users
 
 ## Additional Resources
-
 
 - [React Relative Paths](https://create-react-app.dev/docs/deployment#building-for-relative-paths)
