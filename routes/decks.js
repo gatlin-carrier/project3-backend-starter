@@ -65,8 +65,8 @@ router.delete("/:id", (request, response) => {
 router.put("/:id", (request, response) => {
   Deck.update(
     {
-      title: request.body.term,
-      description: request.body.definition
+      title: request.body.title,
+      description: request.body.description
     },
     { where: { id: request.params.id }, returning: true }
   ).then(deck => {
