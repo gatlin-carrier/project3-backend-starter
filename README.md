@@ -1,26 +1,52 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+# Introduction
+
+Deckster is an Application for anyone that is trying to either study for a test, learn a new language or add some new words to their daily vocabulary. Deckster provides flashcards in decks that can be easily added by a user to add their own terms and definition or questions and answers. Users are also able to add a picture using the search bar provided in each add flashcard screen.
+Users are also able to keep track of the flashcards by adding them to the deck, creating a new deck, and many more features to provide the best user experience.
+
+## Wireframes
+
+![Wireframe](/Users/gatlincarrier/sei/projects/project3-backend-starter/images/IMG_1960.HEIC)
+![Wireframe](/Users/gatlincarrier/sei/projects/project3-backend-starter/images/IMG_1961.HEIC)
+
 ## User Stories
 
 1. As a User, I want to be able to add my own flashcards, so that I can study.
-
 2. As a User, I want to have Decks where I can store my flashcards by subject, so that my study materials are organized.
-
 3. As a User, I want to see just the question/term and then click somewhere to reveal the answer/definition, so that I can test my memory.
-
-4. As a User, I want to be able to mark a flashcard as "learned", so that I can track my progess.
-
+4. As a User, I want to be able to mark a flashcard as "mastered", so that I can track my progess.
 5. As a User, I want to be able to update/change a card, so I can keep my Decks flexible and up to date.
-
 6. As a User, I want to have controls that allow me to move through the cards in a Deck, so I can move easily between my cards.
-
 7. As a User, I want to be able to delete a card from a Deck, so I can better manage my Decks.
-
 8. As a User, I want to be able to add images to my flashcards/Decks, so that I can better memeorize the content and study.
+9. As a User, I want to have a searchbar to search for an image so that i can add it to my flashcard to learn better.
+10. As a User, I want to be able to register and login so that i can keep up with all my work.
 
-9. As a User, I want a motivational gif/quote to appear when I master something, so that I feel more motivated to study.
+## Future Ideas
 
-10. As a User, I want a help page/guides, so that I can more easily use the web app.
+- Add an option for users to get a percentage of the cards they have mastered.
+
+- Have motivation gifs or something like that to motivate the learner when they have mastered a card, or if they feel discouraged.
+
+- Another idea would be to get access to other users decks that are posted public to study without creating it yourself.
+
+- Add a profile Avatar.
+
+- Add the ability to fully edit decks and cards.
+
+## Technologies Used
+
+- React
+- Sequelize
+- Postgresql
+- SQL
+- Materialize
+- Javascript ES6
+- CSS
+- VSCode
+- Unsplash API
+-
 
 # Project 3 Backend Starter Code
 

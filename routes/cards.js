@@ -46,7 +46,7 @@ router.post("/:id", (request, response) => {
 router.delete("/:id", (request, response) => {
   Card.destroy({ where: { id: request.params.id } })
     .then(() => {
-      return Card.findAll();
+      return Card.findAll({ where: { id: request.params.id } });
     })
     .then(cards => {
       response.json({ cards });

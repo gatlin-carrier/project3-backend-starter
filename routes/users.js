@@ -12,7 +12,8 @@ router.get("/", function(request, response, next) {
 
 // CREATE a new User
 
-router.post("/", function(request, response, next) {
+router.post("/", function(request, response) {
+  console.log(request.body);
   User.create({
     first_name: request.body.first_name,
     last_name: request.body.last_name,
