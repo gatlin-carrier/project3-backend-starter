@@ -7,8 +7,8 @@ Users are also able to keep track of the flashcards by adding them to the deck, 
 
 ## Wireframes
 
-![Wireframe](/Users/gatlincarrier/sei/projects/project3-backend-starter/images/IMG_1960.HEIC)
-![Wireframe](/Users/gatlincarrier/sei/projects/project3-backend-starter/images/IMG_1961.HEIC)
+![Wireframe](https://github.com/gatlin-carrier/project3-backend-starter/blob/master/images/IMG_1960.HEIC)
+![Wireframe](https://github.com/gatlin-carrier/project3-backend-starter/blob/master/images/IMG_1961.HEIC)
 
 ## User Stories
 
