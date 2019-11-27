@@ -7,8 +7,8 @@ Users are also able to keep track of the flashcards by adding them to the deck, 
 
 ## Wireframes
 
-![Wireframe](images/IMG_1960.HEIC)
-![Wireframe](images/IMG_1961.HEIC)
+![Wireframe](images/FirstScreenshot.png)
+![Wireframe](images/SecondScreenshot.png)
 
 ## User Stories
 
